@@ -80,10 +80,10 @@ python dashboard.py
 
 ### View:
 
-Total, safe, and blocked requests
+- Total, safe, and blocked requests
 
-Top IPs
+- Top IPs
 
-Attack types
+- Attack types
 
-Status chart
+- Status chart
