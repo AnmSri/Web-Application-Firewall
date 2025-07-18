@@ -47,8 +47,8 @@ A basic Web Application Firewall (WAF) built using Python and Flask to filter, m
 
 ### 1. Clone the Project
 
-git clone https://github.com/yourusername/simple-waf.git
-cd simple-waf
+git clone [https://github.com/yourusername/simple-waf.git](https://github.com/AnmSri/Web-Application-Firewall)
+cd Web-Application-Firewall
 
 ### 2. Create a Virtual Environment
 
