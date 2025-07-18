@@ -18,7 +18,7 @@ A basic Web Application Firewall (WAF) built using Python and Flask to filter, m
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tools Used
 
 | Component         | Technology         |
 |------------------|--------------------|
