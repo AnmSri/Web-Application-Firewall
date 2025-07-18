@@ -30,5 +30,4 @@ A basic Web Application Firewall (WAF) built using Python and Flask to filter, m
 
 ---
 
-## 📁 Folder Structure
 
