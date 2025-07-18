@@ -1,0 +1,68 @@
+2025-07-17 19:43:12,779 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-17 19:43:12,779 - [33mPress CTRL+C to quit[0m
+2025-07-17 19:43:12,787 -  * Restarting with stat
+2025-07-17 19:43:13,061 -  * Debugger is active!
+2025-07-17 19:43:13,064 -  * Debugger PIN: 105-099-440
+2025-07-17 19:44:56,609 - 127.0.0.1 - - [17/Jul/2025 19:44:56] "GET / HTTP/1.1" 200 -
+2025-07-17 19:44:56,755 - 127.0.0.1 - - [17/Jul/2025 19:44:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-17 19:45:03,544 - 127.0.0.1 - - [17/Jul/2025 19:45:03] "POST / HTTP/1.1" 200 -
+2025-07-17 19:45:15,804 - 127.0.0.1 - - [17/Jul/2025 19:45:15] "POST / HTTP/1.1" 200 -
+2025-07-17 19:45:18,020 - 127.0.0.1 - - [17/Jul/2025 19:45:18] "POST / HTTP/1.1" 200 -
+2025-07-17 19:45:21,031 - 127.0.0.1 - - [17/Jul/2025 19:45:21] "POST / HTTP/1.1" 200 -
+2025-07-17 19:45:21,930 - 127.0.0.1 - - [17/Jul/2025 19:45:21] "GET / HTTP/1.1" 200 -
+2025-07-17 19:45:40,869 - Blocked malicious input: Param='input', Value='<script>alert(1)</script>', Pattern='(?i)<script.*?>'
+2025-07-17 19:45:40,870 - 127.0.0.1 - - [17/Jul/2025 19:45:40] "[31m[1mPOST / HTTP/1.1[0m" 403 -
+2025-07-17 19:46:41,420 - Blocked malicious input: Param='input', Value='<script>alert(1)</script>', Pattern='(?i)<script.*?>'
+2025-07-17 19:46:41,421 - 127.0.0.1 - - [17/Jul/2025 19:46:41] "[31m[1mPOST / HTTP/1.1[0m" 403 -
+2025-07-17 19:47:12,804 - 127.0.0.1 - - [17/Jul/2025 19:47:12] "POST / HTTP/1.1" 200 -
+2025-07-17 20:06:44,183 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-17 20:06:44,183 - [33mPress CTRL+C to quit[0m
+2025-07-17 20:06:44,184 -  * Restarting with stat
+2025-07-17 20:06:44,447 -  * Debugger is active!
+2025-07-17 20:06:44,449 -  * Debugger PIN: 105-099-440
+2025-07-17 20:06:54,092 - 127.0.0.1 - - [17/Jul/2025 20:06:54] "GET / HTTP/1.1" 200 -
+2025-07-17 20:07:41,735 - 127.0.0.1 - - [17/Jul/2025 20:07:41] "POST / HTTP/1.1" 200 -
+2025-07-17 20:08:03,314 - 127.0.0.1 - - [17/Jul/2025 20:08:03] "GET / HTTP/1.1" 200 -
+2025-07-17 20:08:19,459 - Blocked malicious input: Param='input', Value='<script>alert(1)</script>', Pattern='(?i)<script.*?>'
+2025-07-17 20:08:19,459 - 127.0.0.1 - - [17/Jul/2025 20:08:19] "[31m[1mPOST / HTTP/1.1[0m" 403 -
+2025-07-17 20:09:58,273 -  * Detected change in 'C:\\Users\\anmsr\\Desktop\\Simple Web Application Firewall\\app.py', reloading
+2025-07-17 20:09:58,364 -  * Restarting with stat
+2025-07-17 20:09:58,638 -  * Debugger is active!
+2025-07-17 20:09:58,640 -  * Debugger PIN: 105-099-440
+2025-07-17 20:10:06,398 - Blocked malicious input: Param='input', Value='Anmol', Pattern='Anmol'
+2025-07-17 20:10:06,398 - 127.0.0.1 - - [17/Jul/2025 20:10:06] "[31m[1mPOST / HTTP/1.1[0m" 403 -
+2025-07-17 20:10:30,263 -  * Detected change in 'C:\\Users\\anmsr\\Desktop\\Simple Web Application Firewall\\app.py', reloading
+2025-07-17 20:10:30,354 -  * Restarting with stat
+2025-07-17 20:10:30,618 -  * Debugger is active!
+2025-07-17 20:10:30,620 -  * Debugger PIN: 105-099-440
+2025-07-17 20:10:35,976 - 127.0.0.1 - - [17/Jul/2025 20:10:35] "POST / HTTP/1.1" 200 -
+2025-07-17 20:19:47,882 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-17 20:19:47,883 - [33mPress CTRL+C to quit[0m
+2025-07-17 20:19:47,883 -  * Restarting with stat
+2025-07-17 20:19:48,182 -  * Debugger is active!
+2025-07-17 20:19:48,184 -  * Debugger PIN: 105-099-440
+2025-07-17 20:36:17,300 - 127.0.0.1 - - [17/Jul/2025 20:36:17] "GET / HTTP/1.1" 200 -
+2025-07-18 17:55:44,602 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-18 17:55:44,603 - [33mPress CTRL+C to quit[0m
+2025-07-18 17:55:44,620 -  * Restarting with stat
+2025-07-18 17:55:44,910 -  * Debugger is active!
+2025-07-18 17:55:44,912 -  * Debugger PIN: 380-736-672
+2025-07-18 17:55:59,583 - [SAFE INPUT] IP: 127.0.0.1 | Param='input' | Value='Hii'
+2025-07-18 17:55:59,584 - 127.0.0.1 - - [18/Jul/2025 17:55:59] "POST / HTTP/1.1" 200 -
+2025-07-18 17:55:59,631 - 127.0.0.1 - - [18/Jul/2025 17:55:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-18 17:56:03,762 - 127.0.0.1 - - [18/Jul/2025 17:56:03] "GET / HTTP/1.1" 200 -
+2025-07-18 17:56:09,580 - [SAFE INPUT] IP: 127.0.0.1 | Param='input' | Value='Hello'
+2025-07-18 17:56:09,581 - 127.0.0.1 - - [18/Jul/2025 17:56:09] "POST / HTTP/1.1" 200 -
+2025-07-18 17:57:19,143 - 127.0.0.1 - - [18/Jul/2025 17:57:19] "GET / HTTP/1.1" 200 -
+2025-07-18 17:57:21,861 - [BLOCKED] IP: 127.0.0.1 | Param='input' | Value='<script>alert(1)</script>' | Pattern='(?i)<script.*?>'
+2025-07-18 17:57:21,862 - 127.0.0.1 - - [18/Jul/2025 17:57:21] "[31m[1mPOST / HTTP/1.1[0m" 403 -
+2025-07-18 17:58:05,338 - 127.0.0.1 - - [18/Jul/2025 17:58:05] "GET / HTTP/1.1" 200 -
+2025-07-18 17:58:09,100 - [SAFE INPUT] IP: 127.0.0.1 | Param='input' | Value='Hii'
+2025-07-18 17:58:09,100 - 127.0.0.1 - - [18/Jul/2025 17:58:09] "POST / HTTP/1.1" 200 -
+2025-07-18 17:58:22,587 - 127.0.0.1 - - [18/Jul/2025 17:58:22] "GET / HTTP/1.1" 200 -
+2025-07-18 17:58:29,112 - [BLOCKED] IP: 127.0.0.1 | Param='input' | Value='<script>alert(1)</script>' | Pattern='(?i)<script.*?>'
+2025-07-18 17:58:29,113 - 127.0.0.1 - - [18/Jul/2025 17:58:29] "[31m[1mPOST / HTTP/1.1[0m" 403 -

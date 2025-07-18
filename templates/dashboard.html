@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WAF Dashboard</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        h1 { color: #333; }
+        .stats { margin-bottom: 20px; }
+        .box { background: #f9f9f9; padding: 10px; margin: 10px 0; border-left: 5px solid #007BFF; }
+    </style>
+</head>
+<body>
+    <h1>🛡️ Web Application Firewall (WAF) Dashboard</h1>
+
+    <div class="stats">
+        <div class="box">Total Requests: {{ total }}</div>
+        <div class="box">Blocked Requests: {{ blocked }}</div>
+        <div class="box">Safe Inputs: {{ safe }}</div>
+    </div>
+
+    <h3>Top Attacker IPs</h3>
+    <ul>
+        {% for ip, count in top_ips.items() %}
+            <li>{{ ip }} — {{ count }} attacks</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Top Attack Patterns</h3>
+    <ul>
+        {% for pattern, count in top_patterns.items() %}
+            <li>{{ pattern }} — {{ count }} times</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Request Overview Chart</h3>
+    <img src="{{ chart_url }}" alt="Status Chart" width="500px" />
+
+</body>
+</html>
