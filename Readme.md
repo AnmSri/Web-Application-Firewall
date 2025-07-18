@@ -87,3 +87,38 @@ python dashboard.py
 - Attack types
 
 - Status chart
+
+# 🔒 Web Application Firewall – Test Inputs
+
+This file lists example malicious payloads to test the detection and blocking behavior of the Simple WAF.
+
+---
+
+## 💡 Common Web Attack Inputs
+
+| Attack Type | Input Example |
+|-------------|----------------|
+| **XSS**     | `<script>alert(1)</script>` |
+| **SQL Injection** | `1 UNION SELECT password` |
+| **SQL Logic Bypass** | `' OR 1=1 --` |
+| **Directory Traversal** | `../../etc/passwd` |
+
+---
+
+## ✅ How to Test
+
+You can enter these payloads into the form on your app's front end. The WAF should:
+
+- 🚫 Block malicious inputs (403)
+- ✅ Allow safe inputs (200)
+
+---
+
+## 📌 Add More Test Cases
+
+You can expand this list to include:
+
+- Command injection (`; rm -rf /`)
+- XML External Entity (XXE)
+- Encoded payloads (`%3Cscript%3E`)
+
