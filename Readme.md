@@ -32,21 +32,13 @@ A basic Web Application Firewall (WAF) built using Python and Flask to filter, m
 
 ## 📁 Folder Structure
 ├── app.py # Main WAF web application
-
 ├── dashboard.py # Dashboard for visualization
-
 ├── waf.log # Log file with tracked inputs
-
 ├── requirements.txt # Dependencies list
-
 ├── templates/
-
-│ └── dashboard.html # HTML for dashboard UI
-
+ └── dashboard.html # HTML for dashboard UI
 ├── static/
-
 │ └── chart.png # Visualization chart image
-
 └── README.md # Project documentation
 
 
@@ -63,7 +55,8 @@ cd Web-Application-Firewall
 ### 2. Create a Virtual Environment
 
 python -m venv venv
-venv\Scripts\activate on Windows
+
+venv\Scripts\activate
 
 ### 3. Install Dependencies
 
