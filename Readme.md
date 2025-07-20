@@ -32,13 +32,19 @@ A basic Web Application Firewall (WAF) built using Python and Flask to filter, m
 
 ## 📁 Folder Structure
 ├── app.py # Main WAF web application
+
 ├── dashboard.py # Dashboard for visualization
+
 ├── waf.log # Log file with tracked inputs
+
 ├── requirements.txt # Dependencies list
+
 ├── templates/
  └── dashboard.html # HTML for dashboard UI
+
 ├── static/
-│ └── chart.png # Visualization chart image
+ └── chart.png # Visualization chart image
+
 └── README.md # Project documentation
 
 
@@ -83,7 +89,7 @@ python dashboard.py
 
 # 🔒 Web Application Firewall – Test Inputs
 
-This file lists example malicious payloads to test the detection and blocking behavior of the Simple WAF.
+This table lists example malicious payloads to test the detection and blocking behavior of the Simple Web Application Firewall.
 
 ---
 
@@ -95,23 +101,20 @@ This file lists example malicious payloads to test the detection and blocking be
 | **SQL Injection** | `1 UNION SELECT password` |
 | **SQL Logic Bypass** | `' OR 1=1 --` |
 | **Directory Traversal** | `../../etc/passwd` |
+| **Command injection** | `; rm -rf /` |
+| **XML External Entity** | `XXE` |
+| **Encoded payloads** | `%3Cscript%3E` |
 
 ---
 
 ## ✅ How to Test
 
-You can enter these payloads into the form on your app's front end. The WAF should:
+You can enter these payloads into the form on the app's front end. The WAF should:
 
 - 🚫 Block malicious inputs (403)
 - ✅ Allow safe inputs (200)
 
 ---
 
-## 📌 Add More Test Cases
 
-You can expand this list to include:
-
-- Command injection (`; rm -rf /`)
-- XML External Entity (XXE)
-- Encoded payloads (`%3Cscript%3E`)
 
