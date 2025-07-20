@@ -75,9 +75,13 @@ pip install -r requirements.txt
 
 python app.py
 
+After running the command, open http://127.0.0.1:5000/ in the browser.
+
 ### 5. Run the Dashboard
 
 python dashboard.py
+
+After running the command, open http://127.0.0.1:5001/ in the browser.
 
 ### View:
 
@@ -114,7 +118,7 @@ This table lists example malicious payloads to test the detection and blocking b
 You can enter these payloads into the form on the app's front end. The WAF should:
 
 - 🚫 Block malicious inputs (403)
-- ✅ Allow safe inputs (200)
+- ✅ Allow safe inputs (200) [In logs]
 
 ---
 
