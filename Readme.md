@@ -102,7 +102,7 @@ This table lists example malicious payloads to test the detection and blocking b
 | **SQL Logic Bypass** | `' OR 1=1 --` |
 | **Directory Traversal** | `../../etc/passwd` |
 | **Command injection** | `; rm -rf /` |
-| **XML External Entity** | `XXE` |
+| **XML External Entity** | `<?xml version="1.0"?> <!DOCTYPE foo [<!ELEMENT foo ANY > <!ENTITY xxe SYSTEM "file:///C:/Windows/system.ini" >]> <foo>&xxe;</foo>` |
 | **Encoded payloads** | `%3Cscript%3E` |
 
 ---
