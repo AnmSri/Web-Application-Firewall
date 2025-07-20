@@ -1,6 +1,8 @@
 # 🔐 Simple Web Application Firewall (WAF)
 
-A basic Web Application Firewall (WAF) built using Python and Flask to filter, monitor, and block malicious HTTP requests such as SQL Injection, Cross-Site Scripting (XSS), and more. Also includes a visual dashboard for analyzing traffic and attacks.
+I built this Simple Web Application Firewall (WAF) to explore how security tools help detect and block malicious inputs in web applications.
+
+This WAF is a lightweight Python + Flask project that monitors incoming HTTP requests, matches them against common attack patterns (like XSS, SQL injection, directory traversal, command injection, and XXE), and blocks them in real time. It also logs each request with the client's IP address and visualizes the blocked attack types using a dashboard.
 
 ---
 
