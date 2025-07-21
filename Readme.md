@@ -121,13 +121,16 @@ You can enter these payloads into the form on the app's front end. The WAF shoul
 - ✅ Allow safe inputs (200) [In logs]
 
 ---
+## Output
 
-<img width="2047" height="1280" alt="Screenshot 2025-07-18 192403" src="https://github.com/user-attachments/assets/c77c36b7-b421-4370-ac0e-b36088c796d7" />
-<img width="2047" height="1280" alt="Screenshot 2025-07-18 192522" src="https://github.com/user-attachments/assets/417085c8-162a-4ee6-9f97-d37cbe2eb891" />
-<img width="2047" height="1280" alt="Screenshot 2025-07-18 192813" src="https://github.com/user-attachments/assets/62496143-f18e-419c-9ce4-9cf50ff5cca9" />
-<img width="2047" height="1280" alt="Screenshot 2025-07-18 192831" src="https://github.com/user-attachments/assets/122af815-6f5a-419a-84a8-7940f8e6e8fc" />
-<img width="2047" height="1280" alt="Screenshot 2025-07-18 192907" src="https://github.com/user-attachments/assets/dbf9e7f6-a0e4-4744-a73d-38b23472a1a2" />
-<img width="2047" height="1280" alt="Screenshot 2025-07-18 192950" src="https://github.com/user-attachments/assets/f00c4eed-a15d-4639-a405-c19bda042ba7" />
+<img width="2047" height="1221" alt="Screenshot 2025-07-18 192403" src="https://github.com/user-attachments/assets/b4785e32-1428-41e3-8317-02d8f93e328e" />
+<img width="2047" height="1219" alt="Screenshot 2025-07-18 192522" src="https://github.com/user-attachments/assets/6a2cf679-27f9-4cad-908f-60a987af32ad" />
+<img width="2047" height="1219" alt="Screenshot 2025-07-18 192813" src="https://github.com/user-attachments/assets/d4e3b5d7-588a-4c6f-8198-ce8df662420e" />
+<img width="2047" height="1219" alt="Screenshot 2025-07-18 192831" src="https://github.com/user-attachments/assets/bc96224c-0c23-4abb-b488-1b13412d2103" />
+<img width="2047" height="1214" alt="Screenshot 2025-07-18 192907" src="https://github.com/user-attachments/assets/4ff2fc02-a761-4aa2-8a1d-6cfd103c6fbc" />
+<img width="2047" height="1224" alt="Screenshot 2025-07-18 192950" src="https://github.com/user-attachments/assets/938c10d9-2a80-4727-a128-5d341ae215c8" />
+
+
 
 
 
