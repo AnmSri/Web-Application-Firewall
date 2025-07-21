@@ -122,5 +122,17 @@ You can enter these payloads into the form on the app's front end. The WAF shoul
 
 ---
 
+<img width="2047" height="1280" alt="Screenshot 2025-07-18 192403" src="https://github.com/user-attachments/assets/c77c36b7-b421-4370-ac0e-b36088c796d7" />
+<img width="2047" height="1280" alt="Screenshot 2025-07-18 192522" src="https://github.com/user-attachments/assets/417085c8-162a-4ee6-9f97-d37cbe2eb891" />
+<img width="2047" height="1280" alt="Screenshot 2025-07-18 192813" src="https://github.com/user-attachments/assets/62496143-f18e-419c-9ce4-9cf50ff5cca9" />
+<img width="2047" height="1280" alt="Screenshot 2025-07-18 192831" src="https://github.com/user-attachments/assets/122af815-6f5a-419a-84a8-7940f8e6e8fc" />
+<img width="2047" height="1280" alt="Screenshot 2025-07-18 192907" src="https://github.com/user-attachments/assets/dbf9e7f6-a0e4-4744-a73d-38b23472a1a2" />
+<img width="2047" height="1280" alt="Screenshot 2025-07-18 192950" src="https://github.com/user-attachments/assets/f00c4eed-a15d-4639-a405-c19bda042ba7" />
+
+
+
+
+
+
 
 
